@@ -5,9 +5,14 @@ Map foodJson = {
         "name": "สมชาย เชฟไทย",
         "image_url": "https://example.com/chef1.jpg",
       },
+<<<<<<< HEAD
       "menu_name": "test git",
       "ingredients":
           "กุ้ง, ข่า, ตะไคร้, ใบมะกรูด, พริก, มะนาว, น้ำปลาaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+=======
+      "menu_name": "ต้มยำกุ้ง",
+      "ingredients": "กุ้ง, ข่า, ตะไคร้, ใบมะกรูด, พริก, มะนาว, น้ำปลา",
+>>>>>>> mix
       "image_url":
           "https://plus.unsplash.com/premium_photo-1661771822467-e516ca075314?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
