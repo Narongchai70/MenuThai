@@ -2,12 +2,10 @@ Map foodJson = {
   "thai_foods": [
     {
       "chef": {
-        "name":
-            "สมชาย เชฟไทยaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "name": "สมชาย เชฟไทย",
         "image_url": "https://example.com/chef1.jpg",
       },
-      "menu_name":
-          "test git",
+      "menu_name": "test git",
       "ingredients":
           "กุ้ง, ข่า, ตะไคร้, ใบมะกรูด, พริก, มะนาว, น้ำปลาaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "image_url":
