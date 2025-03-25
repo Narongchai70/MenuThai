@@ -9,6 +9,7 @@ import 'package:app_manu_thai/app/stream/stream_random.dart';
 import 'package:app_manu_thai/app/stream/stream_time_messages.dart';
 import 'package:app_manu_thai/app/ui/home.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const Home());
@@ -24,6 +25,17 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomeScreenState());
+    return MaterialApp(
+      home: HomeScreenState(),
+      theme: _buildTheme(Brightness.light),
+    );
+  }
+
+  ThemeData _buildTheme(brightness) {
+    var baseTheme = ThemeData(brightness: brightness);
+
+    return baseTheme.copyWith(
+      textTheme: GoogleFonts.notoSerifThaiTextTheme(baseTheme.textTheme),
+    );
   }
 }
